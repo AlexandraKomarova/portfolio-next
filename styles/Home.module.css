@@ -1,4 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gruppo&display=swap');
+.container {
+  display: grid;
+  grid-template: repeat(2, auto) / 100vw; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .thinLine {
+  grid-area: 1/1/2/-1;
+  width: 90vw;
+  height: 2px;
+  align-self: end;
+  background-color: rgb(25, 101, 214);
+  z-index: 1;
+} */
 

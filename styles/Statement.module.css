@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+.statementWrapper {
+  grid-area: 2/1/3/-1;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+}
+
+.hi, .statement {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  color: white;
+}
+
+/* PORTRAIT */
+@media only screen 
+  and (orientation: portrait) {
+    .statementWrapper {
+      flex-direction: column;
+    }
+
+    .hi, .statement {
+      font-size: 20px;
+      margin-left: 60px;
+    }
+
+    .hi {
+      
+    }
+  }

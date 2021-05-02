@@ -1,0 +1,96 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+  .container {
+    grid-area: 2/1/-1/-1;
+    background-color: white;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template: 20vh 80vh 50vh / 100vw;
+  }
+
+  .textWrapper {
+    font-family: 'Sulphur Point', sans-serif;
+    font-family: 'Antic Didone', serif;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    color: rgb(8, 8, 209);
+    grid-area: 1/1/2/-1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text {
+    margin: 0;
+  }
+
+  .cover {
+    width: 700px;
+    height: 80px;
+    background-color: rgb(8, 8, 209);
+    background-color: white;
+    grid-area: 1/1/2/-1;
+    z-index: 1;
+  }
+
+  .blueRectangle {
+    width: 30px;
+    height: 90px;
+    margin-left: 50px;
+    grid-area: 2/1/3/-1;
+    background-color: rgb(8, 8, 209);
+  }
+
+  .video {
+    grid-area: 2/1/3/-1;
+    height: 100%;
+    justify-self: end;
+  }
+
+  .story {
+    font-family: 'Antic Didone', serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: rgb(8, 8, 209);
+    margin-top: 40px;
+    width: 60%;
+    margin-left: 50px;
+    grid-area: 3/1/4/-1;
+  }
+
+  .visit {
+    font-family: 'Roboto Mono', monospace;
+    text-transform: lowercase;
+    font-size: 17px;
+    color: rgb(8, 8, 209);
+    margin-top: 40px;
+    margin-right: 30px;
+    grid-area: 3/1/4/-1;
+    justify-self: end;
+    align-self: end;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .arrow {
+    cursor: pointer;
+    margin-top: 13px;
+    margin-left: 7px;
+  }
+
+@media only screen 
+  and (orientation: portrait) {
+  .container {
+    display: none;
+  }
+}
+

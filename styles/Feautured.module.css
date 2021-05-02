@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+.featuredWrapper {
+  grid-area: 3/1/-1/-1;
+  display: grid;
+  grid-template: auto auto auto / 30px 30px;
+  margin-left: 10px;
+}
+
+.greenRectangle {
+  width: 30px;
+  height: 90px;
+  grid-area: 1/1/2/2;
+  background-color: rgb(112, 240, 112);
+  background-color: #D12E49;
+}
+
+.cover {
+  width: 30px;
+  height: 90px;
+  grid-area: 2/2/3/-1;
+  background-color: rgb(8, 8, 209);
+  /* background-color: lightpink; */
+  z-index: 1;
+}
+
+.featured {
+  grid-area: 2/1/3/2;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  writing-mode: vertical-rl;
+  /* transform: rotate(180deg); */
+  text-align: right;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  /* z-index: -1; */
+}
+
+.arrow {
+  grid-area: 3/1/-1/2;
+}
+
+/* PORTRAIT */
+@media only screen 
+  and (orientation: portrait) {
+
+    .featuredWrapper {
+      grid-template: 85px 100px 100px / 30px 30px;
+      margin-left: 33px;
+    }
+
+    .greenRectangle {
+      justify-self: center;
+      width: 20px;
+      height: 70px;
+    }
+
+    .featured {
+      font-size: 25px;
+    }
+
+    .arrow {
+     justify-self: center;
+     margin-top: 10px;
+     margin-left: 5px;
+    }
+  }
