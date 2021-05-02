@@ -11,8 +11,7 @@ const home = () =>  {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Home | Alexandra Komarova</title>
-        <link rel="icon" href="" />
+        <title>Alexandra Komarova</title>
       </Head>
       <BlueBG />
       <PHWrapper />
@@ -22,6 +21,10 @@ const home = () =>  {
 }
 
 export default home
+
+// icon 
+
+// <link rel="icon" href="" />
 
 // COMPONENTS
 
