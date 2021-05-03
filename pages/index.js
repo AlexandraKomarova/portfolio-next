@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import BlueBG from '../components/BlueBG'
 import PHWrapper from '../components/PHWrapper'
 import PHWrapperMobile from '../components/PHWrapperMobile'
-import styles from '../styles/home.module.css'
+import styles from '../styles/Home.module.css'
 
 const home = () =>  {
   return (
