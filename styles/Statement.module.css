@@ -17,15 +17,12 @@
 @media only screen 
   and (orientation: portrait) {
     .statementWrapper {
+      margin-top: 15px;
       flex-direction: column;
     }
 
     .hi, .statement {
       font-size: 20px;
       margin-left: 60px;
-    }
-
-    .hi {
-      
     }
   }

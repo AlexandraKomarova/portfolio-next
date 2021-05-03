@@ -44,6 +44,7 @@
   and (orientation: portrait) {
 
     .featuredWrapper {
+      margin-top: 10px;
       grid-template: 85px 100px 100px / 30px 30px;
       margin-left: 33px;
     }
