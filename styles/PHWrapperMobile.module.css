@@ -40,7 +40,6 @@
     text-transform: lowercase;
     font-size: 14px;
     color: rgb(8, 8, 209);
-    /* margin-top: 30px; */
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
