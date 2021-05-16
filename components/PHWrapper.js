@@ -67,11 +67,10 @@ const PHWrapper = () => {
           </Link>
           <Link href="https://projectheart.family" passHref={true}>
             <motion.svg 
-            whileHover={{ 
-              scale: [1, 1.1, 1],
-              transition: { duration: 0.5 },
-              }}
-              whileTap={{ scale: 0.9, transition: { duration: 0.5 } }}
+              whileHover={{ 
+                scale: [1, 1.1, 1],
+                transition: { duration: 0.5 },
+                }}
               className={styles.arrow}  width="57" height="32" viewBox="0 0 137 32" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M136 15.7278L0.501497 16.2722M136 15.7278C125 15.772 106.997 14.8443 106.938 0.344419M136 15.7278C125 15.772 107.003 16.3443 107.061 30.8442" stroke="#D12E49" strokeWidth="2"/>
             </motion.svg>

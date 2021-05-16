@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+/* LANDSCAPE */
+@media only screen and (orientation: landscape) {
+  .mobileContainer {
+    display: none;
+  }
+
+  .blueBG {
+    grid-area: 1/1/-1/-1;
+    background-color: rgb(8, 8, 209);
+  }
+
+  .container {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #fff;
+    color: rgb(8, 8, 209);
+    display: grid;
+    grid-template: 10vh 2.5vh 70vh 2.5vh 15vh / minmax(320px, 25vw) 2.5vh 1fr;
+  }
+
+  .horizontalLine1 {
+    grid-area: 2/1/3/-1;
+    height: 1.5px;
+    width: 100vw;
+    background-color: #e47b9e;
+    z-index: 2;
+  }
+
+  .horizontalLine2 {
+    grid-area: 2/1/3/-1;
+    align-self: end;
+    height: 1.5px;
+    width: 100vw;
+    background-color: #e47b9e;
+    z-index: 2;
+  }
+
+  .horizontalLine3 {
+    grid-area: 4/1/5/-1;
+    height: 1.5px;
+    width: 100vw;
+    background-color: #e47b9e;
+    z-index: 2;
+  }
+
+  .horizontalLine4 {
+    grid-area: 4/1/5/-1;
+    align-self: end;
+    height: 1.5px;
+    width: 100vw;
+    background-color: #e47b9e;
+    z-index: 2;
+  }
+  
+  .verticalLine1 {
+    grid-area: 1/2/-1/-3;
+    height: 100vh;
+    width: 1.5px;
+    background-color: #e47b9e;
+    z-index: 2;
+  }
+
+  .verticalLine2 {
+    grid-area: 1/2/-1/-3;
+    justify-self: end;
+    height: 100vh;
+    width: 1.5px;
+    background-color: #e47b9e;
+    z-index: 2;
+  }
+}
+
+/* PORTRAIT */
+@media only screen and (orientation: portrait) {
+  .container {
+    display: none;
+  }
+
+  .mobileContainer {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template: 1fr / 1fr;
+  }
+
+  .portraitBlueBG {
+    grid-area: 1/1/2/-1;
+    background-color: rgb(8, 8, 209);
+  }
+}

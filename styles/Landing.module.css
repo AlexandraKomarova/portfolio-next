@@ -1,0 +1,15 @@
+.landing {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(8, 8, 209);
+  grid-area: 1/1/2/-1;
+  display: grid;
+  grid-template: 35vh 20vh 1fr / 100vw;
+}
+
+/* PORTRAIT */
+@media only screen and (orientation: portrait) {
+  .landing {
+    grid-template: 25vh 20vh 1fr / 100vw;
+  }
+}

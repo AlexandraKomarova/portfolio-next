@@ -1,33 +1,6 @@
 .container {
   display: grid;
   grid-template: repeat(2, auto) / 100vw; 
+  background-color: #D12E49;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .thinLine {
-  grid-area: 1/1/2/-1;
-  width: 90vw;
-  height: 2px;
-  align-self: end;
-  background-color: rgb(25, 101, 214);
-  z-index: 1;
-} */
 

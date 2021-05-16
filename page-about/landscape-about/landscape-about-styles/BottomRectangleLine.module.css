@@ -1,0 +1,5 @@
+.bottomRectangleLine {
+  /* border-top: 1.5px solid #e47b9e;
+  border-bottom: 1.5px solid #e47b9e; */
+  grid-area: 4/1/5/-1;
+}

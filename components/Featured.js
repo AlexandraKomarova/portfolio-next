@@ -1,16 +1,15 @@
 import { motion } from 'framer-motion'
 import styles from '../styles/Feautured.module.css'
-import { featuredVariants, greenRectangleVariants, arrowVariants } from '../animations/featuredAnimation.js'
+import { featuredVariants, pinkRectangleVariants, arrowVariants } from '../animations/featuredAnimation.js'
 
 const Feautured = () => {
   return (
     <div className={styles.featuredWrapper}>
-      <motion.div className={styles.greenRectangle}
-        variants={greenRectangleVariants}
+      <motion.div className={styles.pinkRectangle}
+        variants={pinkRectangleVariants}
         initial="hidden"
         animate="visible">
       </motion.div>
-      <div className={styles.cover}></div>
       <motion.div className={styles.featured}
         variants={featuredVariants}
         initial="hidden"

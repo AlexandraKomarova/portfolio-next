@@ -40,13 +40,15 @@
 @media only screen 
   and (orientation: portrait) {
     .nameWrapper {
+      /* margin-top: 20px; */
       font-size: 45px;
-      margin-left: 40px;
-      grid-template: repeat(4, 60px) / 300px;
+      justify-self: start;
+      margin-left: 20px;
+      grid-template: repeat(4, 60px) / 280px;
     }
 
     .firstNamecover, .lastNamecover  {
-      width: 300px;
+      width: 280px;
       height: 60px;
     }
   }

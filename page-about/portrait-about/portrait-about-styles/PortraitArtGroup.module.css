@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+.portraitArtGroup {
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(8, 8, 209);
+  width: 100vw;
+  border-top: 1.5px solid #e47b9e;
+  display: grid;
+  grid-template: 3vh 5vh 10vh / 3vh 6vh 56vw 25px 1fr 3vh;
+}
+
+.leftEmptyRectangle {
+  grid-area: 1/1/-1/2;
+  border-right: 1.5px solid #e47b9e;
+}
+
+.rightGreenSquare {
+  grid-area: 1/6/2/-1;
+  border-left: 1.5px solid #e47b9e;
+  background-color: rgb(127, 250, 189);
+}
+
+.rightEmptyRectangle {
+  grid-area: 2/6/-1/-1;
+  border-left: 1.5px solid #e47b9e;
+}
+
+.description {
+  grid-area: 2/3/3/4;
+}
+
+.emailArtIconGroup {
+  grid-area: 3/3/-1/5;
+  margin-top: 20px;
+  display: grid;
+  grid-template: min-content / auto auto;
+  grid-gap: 10px;
+}
+

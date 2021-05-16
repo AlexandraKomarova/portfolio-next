@@ -1,4 +1,4 @@
-export const greenRectangleVariants = {
+export const pinkRectangleVariants = {
   hidden: {
     opacity: 0,
     x: -50

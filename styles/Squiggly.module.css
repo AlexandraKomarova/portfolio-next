@@ -1,0 +1,14 @@
+.squiggly {
+  grid-area: 3/1/-1/-1;
+  justify-self: center;
+  margin-right: 60px;
+}
+
+/* PORTRAIT */
+@media only screen 
+  and (orientation: portrait) {
+      .squiggly {
+      width: 50%;
+      margin-left: 190px;
+    }
+  }

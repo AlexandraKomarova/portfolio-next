@@ -1,0 +1,24 @@
+.bottomLeftCell {
+  grid-area: 5/1/-1/2;
+  width: 70%;
+  place-self: center;;
+  display: grid;
+  grid-template: min-content min-content / auto;
+  grid-row-gap: 10px;
+  display: grid;
+  grid-template: min-content min-content / min-content;
+}
+
+.emailGroup {
+  display: grid;
+  grid-template: auto / min-content min-content;
+  grid-column-gap: 10px;
+}
+
+.stroke, .brush {
+  grid-area: 1/2/-1/-1;
+}
+
+.stroke {
+  margin-top: 10px;
+}

@@ -1,0 +1,25 @@
+.topRectangleLine {
+  /* border-top: 1.5px solid #e47b9e;
+  border-bottom: 1.5px solid #e47b9e; */
+  grid-area: 2/1/3/-1;
+  display: grid;
+  grid-template: 1fr / minmax(320px, 25vw) 2.5vh minmax(320px, 25vw) minmax(320px, 1fr);
+}
+
+.emptyRectangle1 {
+  grid-area: 1/1/-1/2;
+}
+
+.emptySquare {
+  grid-area: 1/2/-1/3;
+}
+
+.emptyRectangle2 {
+  grid-area: 1/3/-1/4;
+}
+
+.blueRectangle {
+  width: 100%;
+  grid-area: 1/4/-1/-1;
+  background-color: rgb(8, 8, 209);
+}

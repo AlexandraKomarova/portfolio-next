@@ -1,22 +1,21 @@
 import Head from 'next/head'
 import { motion } from 'framer-motion'
-
-// components
-import BlueBG from '../components/BlueBG'
+import Landing from '../components/Landing'
 import PHWrapper from '../components/PHWrapper'
 import PHWrapperMobile from '../components/PHWrapperMobile'
 import styles from '../styles/Home.module.css'
 
 const home = () =>  {
   return (
-    <div className={styles.container}>
+    <motion.div className={styles.container} exit={{ opacity: 0 }}
+      transition={{ duration: 0.5 }}>
       <Head>
         <title>Alexandra Komarova</title>
       </Head>
-      <BlueBG />
+      <Landing />
       <PHWrapper />
       <PHWrapperMobile />
-    </div>
+    </motion.div>
   )
 }
 

@@ -1,0 +1,17 @@
+.TopRightCell {
+  grid-area: 1/2/2/-1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topLeftBlueRectangle {
+  width: 10vw;
+  height: 100%;
+  background-color: rgb(8, 8, 209);
+}
+
+.topRightGreenRectangle {
+  width: 25vw;
+  height: 100%;
+  background-color: rgb(127, 250, 189);
+}

@@ -1,0 +1,78 @@
+.photoGroupAndHomeBtn {
+  grid-area: 1/1/2/-1;
+  display: grid;
+  grid-template: 10vh 3vh 25vh 30vh 12px 12px 5vh 3vh/ 3vh 3vh 3vh 40vw 17vw 11px 10px 1fr 3vh;
+}
+
+.homeBtnRectangle {
+  grid-area: 1/2/2/9;
+  /* border-bottom: 1.5px solid #e47b9e; */
+}
+
+.horizontalLine1 {
+  grid-area: 1/1/2/-1;
+  align-self: end;
+  height: 1.5px;
+  width: 100%;
+  background-color: #e47b9e;
+}
+
+.verticalLine1 {
+  grid-area: 1/1/-1/2;
+  justify-self: end;
+  width: 1.5px;
+  height: 100%;
+  background-color: #e47b9e;
+}
+
+.verticalLine2 {
+  grid-area: 1/9/-1/-1;
+  width: 1.5px;
+  height: 100%;
+  background-color: #e47b9e;
+}
+
+.leftGreenRectangle {
+  grid-area: 3/1/-1/2;
+  background-color: rgb(127, 250, 189);
+  margin-right: 1.5px;
+  /* border-right: 1.5px solid #e47b9e; */
+}
+
+.smallBlueSquare {
+  grid-area: 2/2/3/3;
+  background-color: rgb(8, 8, 209);
+}
+
+.smallGreenSquare {
+  grid-area: 8/9/-1/-1;
+  background-color: rgb(127, 250, 189);
+  margin-left: 1.5px
+}
+
+.homeBtn {
+  margin-top: 15px;
+  grid-area: 1/4/2/7;
+  justify-self: end;
+}
+
+.photo {
+  grid-area: 3/4/6/7;
+  width: 100%;
+  background-image: url('../../../public/photo.jpg');
+  background-size: cover;
+  background-position: center;
+  /* background-position: left; */
+  background-repeat: no-repeat;
+}
+
+.squiggly  {
+  width: 90%;
+  margin-top: 6vh;
+  margin-left: 2vw;
+  grid-area: 1/5/4/9;
+}
+
+.star {
+  grid-area: 5/6/7/8;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+.container {
+  grid-area: 2/2/3/-3;
+  display: grid;
+  grid-template: min-content min-content min-content min-content / 1fr;
+  grid-row-gap: 10px;
+}
+
+.gradWrapper {
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 1.5px;
+  color: rgb(8, 8, 209);
+  display: grid;
+  grid-template: 1fr / 30px 1fr;
+  grid-column-gap: 1vw;
+  /* align-items: center; */
+}
+
+.pinkRectangle {
+  height: 90px;
+  width: 30px;
+  background-color: #da7cba;
+  background-color: #f188c6;
+  background-color: #e47b9e;
+}
+
+.grad {
+  align-self: center;
+}
