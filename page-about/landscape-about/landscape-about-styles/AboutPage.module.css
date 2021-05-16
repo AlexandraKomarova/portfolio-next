@@ -17,6 +17,7 @@
     color: rgb(8, 8, 209);
     display: grid;
     grid-template: 10vh 2.5vh 70vh 2.5vh 15vh / minmax(320px, 25vw) 2.5vh 1fr;
+    overflow: hidden;;
   }
 
   .horizontalLine1 {

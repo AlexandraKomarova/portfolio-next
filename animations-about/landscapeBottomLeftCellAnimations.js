@@ -35,3 +35,21 @@ export const emailVariants = {
     }
   }
 }
+
+export const smallBlueSquareVariants = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    scale: [0.5, 1.1, 1],
+    opacity: 1,
+    transition: {
+      delay: 14.8,
+      duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
+    }
+  }
+}

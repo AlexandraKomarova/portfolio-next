@@ -4,11 +4,17 @@ import BrushIcon from './BrushIcon'
 
 import styles from '../landscape-about-styles/BottomLeftCell.module.css'
 
-import { textVariants, emailVariants } from '../../../animations-about/landscapeBottomLeftCellAnimations.js'
+import { textVariants, emailVariants, smallBlueSquareVariants } from '../../../animations-about/landscapeBottomLeftCellAnimations.js'
 
 const BottomLeftCell = () => {
   return (
-    <div className={styles.bottomLeftCell}>
+    <div className={styles.bottomLeftCellWrapper}>
+      <motion.div className={styles.smallBlueSquare}
+        variants={smallBlueSquareVariants}
+        initial="hidden"
+        animate="visible">
+      </motion.div>
+      <div className={styles.bottomLeftCell}>
       <motion.div
         variants={textVariants}
         initial="hidden"
@@ -24,6 +30,8 @@ const BottomLeftCell = () => {
         <BrushIcon />
       </div>
     </div>
+    </div>
+    
   )
 }
 

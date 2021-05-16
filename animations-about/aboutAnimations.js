@@ -115,7 +115,7 @@ export const verticalLine2Variants = {
     y: -1000
   },
   visible: {
-    opcaity: 1,
+    opacity: 1,
     y: 0,
     transition: {
       delay: 2.2,

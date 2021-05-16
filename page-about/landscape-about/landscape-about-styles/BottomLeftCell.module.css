@@ -1,5 +1,11 @@
-.bottomLeftCell {
+.bottomLeftCellWrapper {
   grid-area: 5/1/-1/2;
+  display: grid;
+  grid-template: 1fr / 1fr;
+}
+
+.bottomLeftCell {
+  grid-area: 1/1/-1/-1;
   width: 70%;
   place-self: center;;
   display: grid;
@@ -7,6 +13,14 @@
   grid-row-gap: 10px;
   display: grid;
   grid-template: min-content min-content / min-content;
+}
+
+.smallBlueSquare {
+  grid-area: 1/1/-1/1;
+  width: 2.3vh;
+  height: 2.3vh;
+  background-color: rgb(8, 8, 209);
+  align-self: end;
 }
 
 .emailGroup {
