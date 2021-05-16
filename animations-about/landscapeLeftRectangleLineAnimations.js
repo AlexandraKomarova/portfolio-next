@@ -6,7 +6,7 @@ export const intersectionGreenSquareVariants = {
     opacity: 1,
     // TODO: MAKE IT BLINK
     // opacity: [0, 1, 1, 1, 1, 1, 1, 0],
-    scale: [0.5, 1.1, 1],
+    scale: [0.5, 1],
     transition: {
       delay: 6,
       duration: 0.7,
@@ -65,7 +65,7 @@ export const intersectionBlueSquareVariants = {
     opacity: 1,
     // TODO: MAKE IT BLINK
     // opacity: [0, 1, 1, 1, 1, 1, 1, 0],
-    scale: [0.5, 1.1, 1],
+    scale: [0.5, 1],
     transition: {
       delay: 14.3,
       duration: 0.5,

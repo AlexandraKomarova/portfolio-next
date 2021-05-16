@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 import styles from '../portrait-about-styles/PortraitHomeBtn.module.css'
 
@@ -6,7 +7,8 @@ import { pinkRectangleVariants, homeVariants, arrowVariants } from '../../../ani
 
 const Home = () => {
   return (
-    <div className={styles.homeWrapper}>
+    <Link href="/">
+      <div className={styles.homeWrapper}>
       <motion.svg className={styles.arrow} 
         variants={arrowVariants}
         initial="hidden"
@@ -25,6 +27,7 @@ const Home = () => {
         animate="visible">
       </motion.div>
     </div>
+    </Link>
   )
 }
 
