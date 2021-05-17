@@ -25,6 +25,7 @@
 .phLogoWrapper {
   grid-area: 2/4/3/5;
   margin-top: 1vh;
+  cursor: pointer;
 }
 
 .workIconWrapper {

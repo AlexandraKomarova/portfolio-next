@@ -7,6 +7,7 @@
   border-top: 1.5px solid #e47b9e;
   display: grid;
   grid-template: 3vh 5vh 10vh / 3vh 6vh 56vw 25px 1fr 3vh;
+  cursor: pointer;
 }
 
 .leftEmptyRectangle {
@@ -35,5 +36,6 @@
   display: grid;
   grid-template: min-content / auto auto;
   grid-gap: 10px;
+  cursor: pointer;
 }
 

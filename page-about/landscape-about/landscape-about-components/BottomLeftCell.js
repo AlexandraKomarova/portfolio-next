@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 import BrushIcon from './BrushIcon'
 
@@ -22,12 +23,16 @@ const BottomLeftCell = () => {
         when I’m not coding find me drawing!
       </motion.div>
       <div className={styles.emailGroup}>
-        <motion.div 
+        <Link href="http://alexandrakomarova.com" passHref={true}>
+          <motion.div 
           variants={emailVariants}
           initial="hidden"
           animate="visible">alexandrakomarova.com
         </motion.div>
-        <BrushIcon />
+        </Link>
+        <Link href="http://alexandrakomarova.com" passHref={true}>
+          <BrushIcon />
+        </Link>
       </div>
     </div>
     </div>

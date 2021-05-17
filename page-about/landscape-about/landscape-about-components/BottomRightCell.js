@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import styles from '../landscape-about-styles/BottomRightCell.module.css'
 import LandscapeProjectHeartLogo from './LandscapeProjectHeartLogo'
 import WorkIcon from './WorkIcon'
@@ -22,9 +23,11 @@ const BottomRightCell = () => {
         animate="visible">
         Started working on Project Heart.
       </motion.div>
-      <div className={styles.phLogoWrapper}>
-        <LandscapeProjectHeartLogo />
-      </div>
+      <Link href="https://projectheart.family" passHref={true}>
+        <div className={styles.phLogoWrapper}>
+          <LandscapeProjectHeartLogo />
+        </div>
+      </Link>
       <motion.div className={styles.workIconWrapper}
         variants={workIconSpring2021}
         initial="hidden"

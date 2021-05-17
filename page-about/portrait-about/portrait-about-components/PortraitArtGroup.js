@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import styles from '../portrait-about-styles/PortraitArtGroup.module.css'
 import ArtIcon from '../../../icon-components/ArtIcon'
 
@@ -9,10 +11,14 @@ const PortraitArtGroup = () => {
       <div className={styles.rightGreenSquare}></div>
       <div className={styles.description}>when I’m not coding <br />find me drawing!</div>
       <div className={styles.emailArtIconGroup}>
-        <div className={styles.website}>
-          alexandrakomarova.com
-        </div>
-        <ArtIcon />
+        <Link href="http://alexandrakomarova.com" passHref={true}>
+          <div className={styles.website}>
+            alexandrakomarova.com
+          </div>
+        </Link>
+        <Link href="http://alexandrakomarova.com" passHref={true}>
+          <ArtIcon />
+        </Link> 
       </div>
     </div>
   )

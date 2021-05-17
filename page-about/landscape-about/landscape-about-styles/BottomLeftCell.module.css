@@ -27,6 +27,7 @@
   display: grid;
   grid-template: auto / min-content min-content;
   grid-column-gap: 10px;
+  cursor: pointer;
 }
 
 .stroke, .brush {
